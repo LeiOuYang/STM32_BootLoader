@@ -82,7 +82,7 @@
 #define BL_PROTOCOL_VERSION 		5		// The revision of the bootloader protocol
 // protocol bytes
 #define PROTO_INSYNC				0x06//0x12    // 'in sync' byte sent before status
-#define PROTO_EOC					0x20    // end of command
+#define PROTO_EOC					0x18//0x20    // end of command
 
 // Reply bytes
 #define PROTO_OK					0x10    // INSYNC/OK      - 'ok' response
